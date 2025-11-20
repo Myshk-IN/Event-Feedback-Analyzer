@@ -57,12 +57,14 @@ H2 console:
 http://localhost:8080/h2-console
 ```
 
-Example credentials (specify in src\main\resources\application.properties: spring.datasource.url, spring.datasource.username, spring.datasource.password):
+Example credentials:
 ```bash
 JDBC URL: jdbc:h2:file:./data/mydb
 User: sa
 Password: password
 ```
+Specify in src\main\resources\application.properties: spring.datasource.url, spring.datasource.username, spring.datasource.password
+
 ### Hugging Face Inference API:
 
 Specify your Hugging Face API key in src\main\resources\application.properties huggingface.api.key.
