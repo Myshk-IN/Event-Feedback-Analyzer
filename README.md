@@ -63,7 +63,7 @@ JDBC URL: jdbc:h2:file:./data/mydb
 User: sa
 Password: password
 ```
-Specify in src\main\resources\application.properties: spring.datasource.url, spring.datasource.username, spring.datasource.password
+Specify in src\main\resources\application.properties: spring.datasource.url, spring.datasource.username, spring.datasource.password.
 
 ### Hugging Face Inference API:
 

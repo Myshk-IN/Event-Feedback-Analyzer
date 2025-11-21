@@ -35,7 +35,7 @@ class EventServiceTest {
     private EventService eventService;
 
     @Test
-    void CreateEvent_ReturnsEventDTO() {
+    void createEvent_GetsValidEvent_ReturnsEventDTO() {
         // Arrange
         UUID generatedId = UUID.randomUUID();
 
@@ -173,5 +173,6 @@ class EventServiceTest {
                 () -> eventService.getEventSummary(eventId));
 
         verify(eventRepository, times(1)).existsById(eventId);
+        verifyNoInteractions(feedbackRepository);
     }
 }
