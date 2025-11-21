@@ -80,4 +80,4 @@ http://localhost:8080/swagger-ui.html
 
 1. Import the Postman collection located at src\test\postman by dragging it into Postman.
 2. Import event_id as a variable.
-3. Pick and choose which tests you wish to run. Tests are focused on project's endpoint.
+3. Pick and choose which tests you wish to run. Tests are focused on project's endpoints.
