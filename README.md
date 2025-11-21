@@ -33,7 +33,7 @@ and provides a **sentiment summary per event**.
 ### Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/event-feedback-analyzer.git
+git clone https://github.com/Myshk-IN/event-feedback-analyzer.git
 cd event-feedback-analyzer
 ```
 
