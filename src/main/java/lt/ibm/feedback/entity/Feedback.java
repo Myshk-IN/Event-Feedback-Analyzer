@@ -30,9 +30,4 @@ public class Feedback {
     @ManyToOne
     @JoinColumn(name = "event_id")
     private Event event;
-
-
-
-
-
 }
